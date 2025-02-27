@@ -1,0 +1,313 @@
+[
+  {
+    "ContainingType": "StoreManagementSystem.Controllers.StoreManagementController",
+    "Method": "AddCart",
+    "RelativePath": "StoreManagement/api/addCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "StoreManagementSystem.DTOs.CartPostDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreManagementSystem.Controllers.StoreManagementController",
+    "Method": "InsertStock",
+    "RelativePath": "StoreManagement/api/addStock",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stock",
+        "Type": "StoreManagementSystem.DTOs.StockPostDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreManagementSystem.Controllers.StoreManagementController",
+    "Method": "InsertUser",
+    "RelativePath": "StoreManagement/api/addUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "StoreManagementSystem.DTOs.UserPostDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreManagementSystem.Controllers.StoreManagementController",
+    "Method": "AllOrder",
+    "RelativePath": "StoreManagement/api/allOrder",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreManagementSystem.Controllers.StoreManagementController",
+    "Method": "AuthUser",
+    "RelativePath": "StoreManagement/api/authenticate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "StoreManagementSystem.DTOs.AuthenticateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreManagementSystem.Controllers.StoreManagementController",
+    "Method": "GetCart",
+    "RelativePath": "StoreManagement/api/cart/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreManagementSystem.Controllers.StoreManagementController",
+    "Method": "Delete",
+    "RelativePath": "StoreManagement/api/deleteCart/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreManagementSystem.Controllers.StoreManagementController",
+    "Method": "DeleteStock",
+    "RelativePath": "StoreManagement/api/deleteStock/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreManagementSystem.Controllers.StoreManagementController",
+    "Method": "DeleteUser",
+    "RelativePath": "StoreManagement/api/deleteUser/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreManagementSystem.Controllers.StoreManagementController",
+    "Method": "GetAllCart",
+    "RelativePath": "StoreManagement/api/getAllCart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreManagementSystem.Controllers.StoreManagementController",
+    "Method": "Order",
+    "RelativePath": "StoreManagement/api/order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "order",
+        "Type": "StoreManagementSystem.DTOs.OrderPostDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreManagementSystem.Controllers.StoreManagementController",
+    "Method": "EditOrder",
+    "RelativePath": "StoreManagement/api/order/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "order",
+        "Type": "StoreManagementSystem.DTOs.OrderPutDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreManagementSystem.Controllers.StoreManagementController",
+    "Method": "GetOrder",
+    "RelativePath": "StoreManagement/api/order/{orderNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreManagementSystem.Controllers.StoreManagementController",
+    "Method": "GetOrder",
+    "RelativePath": "StoreManagement/api/orders/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreManagementSystem.Controllers.StoreManagementController",
+    "Method": "GetStock",
+    "RelativePath": "StoreManagement/api/StockById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreManagementSystem.Controllers.StoreManagementController",
+    "Method": "GetAllStock",
+    "RelativePath": "StoreManagement/api/stocks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreManagementSystem.Controllers.StoreManagementController",
+    "Method": "UpdateStock",
+    "RelativePath": "StoreManagement/api/updateStock/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "stock",
+        "Type": "StoreManagementSystem.DTOs.StockPostDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreManagementSystem.Controllers.StoreManagementController",
+    "Method": "UpdateUser",
+    "RelativePath": "StoreManagement/api/updateUser/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "user",
+        "Type": "StoreManagementSystem.DTOs.UserPutDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreManagementSystem.Controllers.StoreManagementController",
+    "Method": "GetUser",
+    "RelativePath": "StoreManagement/api/userById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StoreManagementSystem.Controllers.StoreManagementController",
+    "Method": "GetAllUser",
+    "RelativePath": "StoreManagement/api/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
